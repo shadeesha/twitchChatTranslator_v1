@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+}
+
+.popup {
+  padding: 16px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.field,
+.toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+}
+
+input[type="text"] {
+  border-radius: 6px;
+  border: 1px solid #2f2f2f;
+  padding: 6px 8px;
+  background: #1f1f1f;
+  color: #f1f1f1;
+}
+
+button {
+  background: #9146ff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 11px;
+  color: #c7c7c7;
+  margin: 0;
+}

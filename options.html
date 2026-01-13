@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Twitch Chat Translator Settings</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1>Advanced Settings</h1>
+      <label class="field">
+        <span>Translation endpoint</span>
+        <input type="url" id="endpoint" placeholder="https://libretranslate.com/translate" />
+      </label>
+      <label class="field">
+        <span>API key (optional)</span>
+        <input type="password" id="apiKey" placeholder="" />
+      </label>
+      <p class="note">
+        Use a LibreTranslate-compatible endpoint. Public endpoints may rate limit heavy usage.
+      </p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

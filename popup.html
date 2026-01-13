@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Twitch Chat Translator</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1>Twitch Chat Translator</h1>
+      <label class="toggle">
+        <input type="checkbox" id="enabled" />
+        <span>Enable translations</span>
+      </label>
+      <label class="field">
+        <span>Target language (ISO code)</span>
+        <input type="text" id="targetLanguage" placeholder="en" />
+      </label>
+      <label class="field">
+        <span>Source language (auto or ISO code)</span>
+        <input type="text" id="sourceLanguage" placeholder="auto" />
+      </label>
+      <button id="openOptions" type="button">Advanced settings</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
