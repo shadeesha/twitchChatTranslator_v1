@@ -1,0 +1,11 @@
+.tct-translation {
+  display: block;
+  margin-left: 1.5rem;
+  color: #a7d3ff;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.tct-translation[data-status="error"] {
+  color: #ffb3b3;
+}

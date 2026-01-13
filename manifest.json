@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Chat Translator",
+  "version": "0.1.0",
+  "description": "Translate Twitch chat messages in real time.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.twitch.tv/*"],
+  "action": {
+    "default_title": "Twitch Chat Translator",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["content-script.js"],
+      "css": ["content-style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
